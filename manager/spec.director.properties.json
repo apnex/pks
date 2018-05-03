@@ -1,0 +1,41 @@
+{
+	"iaas_configuration": {
+		"vcenter_host": "vcenter.lab",
+		"datacenter": "Datacenter",
+		"ephemeral_datastores_string": "ds-esx01",
+		"persistent_datastores_string": "ds-esx01",
+		"vcenter_username": "administrator@vsphere.local",
+		"vcenter_password": "VMware1!",
+		"nsx_networking_enabled": true,
+		"nsx_mode": "nsx-t",
+		"nsx_address": "nsxm01.lab",
+		"nsx_username": "admin",
+		"nsx_password": "VMware1!VMware1!",
+		"nsx_ca_certificate": "-----BEGIN CERTIFICATE-----\nMIIDkTCCAnmgAwIBAgIJAOK6iLYbNfxBMA0GCSqGSIb3DQEBCwUAMF8xCzAJBgNV\nBAYTAlVTMQswCQYDVQQIDAJDQTESMBAGA1UEBwwJUGFsbyBBbHRvMQ8wDQYDVQQK\nDAZ2bXdhcmUxCzAJBgNVBAsMAklUMREwDwYDVQQDDAhyb290LmxhYjAeFw0xODA1\nMDIwNTE2MTVaFw0yODA0MjkwNTE2MTVaMF8xCzAJBgNVBAYTAlVTMQswCQYDVQQI\nDAJDQTESMBAGA1UEBwwJUGFsbyBBbHRvMQ8wDQYDVQQKDAZ2bXdhcmUxCzAJBgNV\nBAsMAklUMREwDwYDVQQDDAhyb290LmxhYjCCASIwDQYJKoZIhvcNAQEBBQADggEP\nADCCAQoCggEBAL3yT5RVXxkaijNeDlqwYyDlnqKT3edOXqVybDwW21zNcr4+tjG9\nqSje66+YPhBwRsb3ntunnJZgo70XUf5VD7bmMMUw3h3eoVxI/U0J+Wh2hR+cilUB\no+jBuaHJ51TwenlFK3PKifj8XGjesEwZ/t/iEs7eI91nQ8IsEJ4N854F983hVAHS\nzGhlOIJ6GcyLkYb+mfOv65Ol1lE+L8nAVlhSvV3iTgVBTxpWdJVZPyE77nbRfcT+\nTErbEBWxz6SUV/yR899Cnk5I//3Jf/bORhqUCPy1epfQuFQfo9sFa205qDNRPzwV\n2cfeYsKVcz8xH85RuidfD3g3s5a94ghcpAUCAwEAAaNQME4wHQYDVR0OBBYEFKaZ\nhkCeIth7vWZU94l5Uj24dNVnMB8GA1UdIwQYMBaAFKaZhkCeIth7vWZU94l5Uj24\ndNVnMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAADhEah/1j6EiSqQ\nJnW7slnGXSI1R64IokwFRxjamGP98S0fftRH4pD7+cjFT9+OFgMN0K0DkSQSzl+3\npjvu9Ol6ziY8ITYWhQzGrk2nw8304l9rbl8iGhmwINSR6WqE/irSLoFAqSK2CY1L\nrOSrTrlVYcpcE5mUXLiCS8ZtKJ0Y+V+ypqflCt3/xvn3qVfevpIYuxD1P5AQAzmT\nIzVluSrjYLncsDCsbxVvQFtfX2IgY+pTzxQZeseR1RtPPup3j+2tIfSB7KCs7r8/\nWWzQyEUgHrWXYZitnFPmf9AUpuLIpsZGXCphMyGHGrleVUdSSIogujIOBoBJzI/+\nWhPi6eg=\n-----END CERTIFICATE-----",
+		"bosh_vm_folder": "pcf_vms",
+		"bosh_template_folder": "pcf_templates",
+		"bosh_disk_path": "pcf_disk",
+		"ssl_verification_enabled": false
+	},
+	"director_configuration": {
+		"ntp_servers_string": "pool.ntp.org",
+		"metrics_ip": null,
+		"resurrector_enabled": true,
+		"director_hostname": "",
+		"max_threads": 5,
+		"disable_dns_release": false,
+		"director_worker_count": 5,
+		"post_deploy_enabled": true,
+		"bosh_recreate_on_next_deploy": false,
+		"retry_bosh_deploys": false,
+		"keep_unreachable_vms": false,
+		"database_type": "internal",
+		"hm_pager_duty_options": {
+			"enabled": false
+		},
+		"hm_emailer_options": {
+			"enabled": false
+		},
+		"blobstore_type": "local"
+	}
+}

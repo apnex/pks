@@ -1,0 +1,6 @@
+{
+	"instances": 1,
+	"instance_type": {
+		"id": "large.cpu"
+	}
+}

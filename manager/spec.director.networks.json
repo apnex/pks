@@ -1,0 +1,37 @@
+{
+	"icmp_checks_enabled": true,
+	"networks": [
+		{
+			"name": "pks-mgmt",
+			"service_network": false,
+			"subnets": [
+				{
+					"iaas_identifier": "ls-pks-mgmt",
+					"cidr": "172.31.0.0/24",
+					"reserved_ip_ranges": "172.31.0.1-172.31.0.9",
+					"dns": "172.16.0.1",
+					"gateway": "172.31.0.1",
+					"availability_zone_names": [
+						"pks-zone"
+					]
+				}
+			]
+		},
+		{
+			"name": "pks-service",
+			"service_network": true,
+			"subnets": [
+				{
+					"iaas_identifier": "ls-pks-service",
+					"cidr": "172.31.2.0/24",
+					"reserved_ip_ranges": "172.31.2.1-172.31.2.9",
+					"dns": "172.16.0.1",
+					"gateway": "172.31.2.1",
+					"availability_zone_names": [
+						"pks-zone"
+					]
+				}
+			]
+		}
+	]
+}
