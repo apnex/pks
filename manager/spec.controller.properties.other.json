@@ -1,0 +1,32 @@
+{
+	"properties": {
+		".properties.uaa_url": {
+			"type": "string",
+			"configurable": true,
+			"credential": false,
+			"value": "api.pks.lab",
+			"optional": false
+		},
+		".properties.uaa_pks_cli_access_token_lifetime": {
+			"type": "integer",
+			"configurable": true,
+			"credential": false,
+			"value": 86400,
+			"optional": false
+		},
+		".properties.uaa_pks_cli_refresh_token_lifetime": {
+			"type": "integer",
+			"configurable": true,
+			"credential": false,
+			"value": 172800,
+			"optional": false
+		},
+		".properties.syslog_migration_selector": {
+			"type": "selector",
+			"configurable": true,
+			"credential": false,
+			"value": "disabled",
+			"optional": false
+		}
+	}
+}

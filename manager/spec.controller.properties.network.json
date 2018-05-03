@@ -1,0 +1,70 @@
+{
+	"properties": {
+		".properties.network_selector": {
+			"type": "selector",
+			"configurable": true,
+			"credential": false,
+			"value": "nsx",
+			"optional": false
+		},
+		".properties.network_selector.nsx.nsx-t-host": {
+			"type": "network_address",
+			"configurable": true,
+			"credential": false,
+			"value": "nsxm01.lab",
+			"optional": false
+		},
+		".properties.network_selector.nsx.credentials": {
+			"type": "simple_credentials",
+			"configurable": true,
+			"credential": true,
+			"value": {
+				"identity": "admin",
+				"password": "***"
+			},
+			"optional": false
+		},
+		".properties.network_selector.nsx.nsx-t-ca-cert": {
+			"type": "ca_certificate",
+			"configurable": true,
+			"credential": false,
+			"value": "-----BEGIN CERTIFICATE-----\r\nMIIDkTCCAnmgAwIBAgIJANTrsxP0xGkqMA0GCSqGSIb3DQEBCwUAMF8xCzAJBgNV\r\nBAYTAlVTMQswCQYDVQQIDAJDQTESMBAGA1UEBwwJUGFsbyBBbHRvMQ8wDQYDVQQK\r\nDAZ2bXdhcmUxCzAJBgNVBAsMAklUMREwDwYDVQQDDAhyb290LmxhYjAeFw0xODA0\r\nMDIwMzQxNDZaFw0yODAzMzAwMzQxNDZaMF8xCzAJBgNVBAYTAlVTMQswCQYDVQQI\r\nDAJDQTESMBAGA1UEBwwJUGFsbyBBbHRvMQ8wDQYDVQQKDAZ2bXdhcmUxCzAJBgNV\r\nBAsMAklUMREwDwYDVQQDDAhyb290LmxhYjCCASIwDQYJKoZIhvcNAQEBBQADggEP\r\nADCCAQoCggEBAPnxKJXEMBgXnseNTwGygqV4VxR1NDDv48e0WfQuJCgymQCnBm/U\r\nso0kFP6cJZilI10nuDiVmXz+awly++dmm58nKQfaI1GcmTQ1e+mIApz+9pmKePxT\r\n4CKeKlossskAbd1n7MC3a1JzV4SwbVtI/dcBNGw1aYxhQllS1Vr47mv4VLn9brL8\r\nJrnV36kPSdAs+8vgn5eg9Mk0DDOV9XQqzZmpUNpKRWmOiILdT0b4AxrSO2Rn4b8E\r\ncQob/u6m6pb00i5OkZAWrpiD18Z+mGp9x4heVqu9/aH9o84hsAS+uQDfSQ2IKFux\r\nQ6LsKqUGzul48+9k5PO0QKwMRc05sDpIuIkCAwEAAaNQME4wHQYDVR0OBBYEFNqn\r\nSDpId7GshazgEn/FmSO5NND5MB8GA1UdIwQYMBaAFNqnSDpId7GshazgEn/FmSO5\r\nNND5MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAD+0k5RPSWFcXzoL\r\n9dP9Q2Zwdqu/4YnnbmnIzRL+umJmJbHOghtTBH8gRuglUSKQKQElza7Ujc0nY1ti\r\n5wrrsUdm2CfuMTk8M2MxNNud4BBnngL29fcV7g9hzWMLGWi0lxqYsv/VejIO3XhA\r\n4XjbkC/UYSfUJ2DjjonDOTvIhqiit7ttrG/3EjREQfQao2qxpsIVcj7XhH66duFv\r\niSlBrrFMw9Br/heeQnhKBEKnKXVH2zToA4wzcL94e/aFbB/nc8qfGnHQHZyPx5We\r\nUzQzFZwBnrtY7xXlxkkykp8kU/WP9K5VwfzQXv0LB3ExnDYSTY88o21nUgfwJlKg\r\n1nupd3g=\r\n-----END CERTIFICATE-----",
+			"optional": true
+		},
+		".properties.network_selector.nsx.nsx-t-insecure": {
+			"type": "boolean",
+			"configurable": true,
+			"credential": false,
+			"value": true,
+			"optional": false
+		},
+		".properties.network_selector.nsx.vcenter_cluster": {
+			"type": "string",
+			"configurable": true,
+			"credential": false,
+			"value": "cmp-02",
+			"optional": false
+		},
+		".properties.network_selector.nsx.t0-router-id": {
+			"type": "string",
+			"configurable": true,
+			"credential": false,
+			"value": "51e275ce-401a-4453-804f-5115053f1e5e",
+			"optional": false
+		},
+		".properties.network_selector.nsx.ip-block-id": {
+			"type": "string",
+			"configurable": true,
+			"credential": false,
+			"value": "5c51a167-55e6-43c4-b75a-d800ab9d977d",
+			"optional": false
+		},
+		".properties.network_selector.nsx.floating-ip-pool-ids": {
+			"type": "string",
+			"configurable": true,
+			"credential": false,
+			"value": "c7ebee12-11f6-4001-b00b-216042190fec",
+			"optional": false
+		}
+	}
+}

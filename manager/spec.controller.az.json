@@ -1,0 +1,18 @@
+{
+	"networks_and_azs": {
+		"singleton_availability_zone": {
+			"name": "pks-zone"
+		},
+		"other_availability_zones": [
+			{
+				"name": "pks-zone"
+			}
+		],
+		"network": {
+			"name": "pks-mgmt"
+		},
+		"service_network": {
+			"name": "pks-service"
+		}
+	}
+}

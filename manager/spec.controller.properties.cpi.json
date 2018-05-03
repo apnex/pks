@@ -1,0 +1,49 @@
+{
+	"properties": {
+		".properties.cloud_provider": {
+			"type": "selector",
+			"configurable": true,
+			"credential": false,
+			"value": "vSphere",
+			"optional": false
+		},
+		".properties.cloud_provider.vsphere.vcenter_creds": {
+			"type": "simple_credentials",
+			"configurable": true,
+			"credential": true,
+			"value": {
+				"identity": "administrator@vsphere.local",
+				"password": "***"
+			},
+			"optional": false
+		},
+		".properties.cloud_provider.vsphere.vcenter_ip": {
+			"type": "string",
+			"configurable": true,
+			"credential": false,
+			"value": "vcenter.lab",
+			"optional": false
+		},
+		".properties.cloud_provider.vsphere.vcenter_dc": {
+			"type": "string",
+			"configurable": true,
+			"credential": false,
+			"value": "Datacenter",
+			"optional": false
+		},
+		".properties.cloud_provider.vsphere.vcenter_ds": {
+			"type": "string",
+			"configurable": true,
+			"credential": false,
+			"value": "ds-esx01",
+			"optional": false
+		},
+		".properties.cloud_provider.vsphere.vcenter_vms": {
+			"type": "string",
+			"configurable": true,
+			"credential": false,
+			"value": "pcf_vms",
+			"optional": false
+		}
+	}
+}

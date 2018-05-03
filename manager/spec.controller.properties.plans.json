@@ -1,0 +1,119 @@
+{
+	"properties": {
+		".properties.plan1_selector": {
+			"type": "selector",
+			"configurable": true,
+			"credential": false,
+			"value": "Plan Active",
+			"optional": false
+		},
+		".properties.plan1_selector.active.name": {
+			"type": "string",
+			"configurable": true,
+			"credential": false,
+			"value": "small",
+			"optional": false
+		},
+		".properties.plan1_selector.active.description": {
+			"type": "text",
+			"configurable": true,
+			"credential": false,
+			"value": "Default plan for K8s cluster",
+			"optional": false
+		},
+		".properties.plan1_selector.active.az_placement": {
+			"type": "service_network_az_single_select",
+			"configurable": true,
+			"credential": false,
+			"value": "pks-zone",
+			"optional": false
+		},
+		".properties.plan1_selector.active.authorization_mode": {
+			"type": "dropdown_select",
+			"configurable": true,
+			"credential": false,
+			"value": "rbac",
+			"optional": false,
+			"options": [
+				{
+					"label": "RBAC",
+					"value": "rbac"
+				},
+				{
+					"label": "ABAC",
+					"value": "abac"
+				}
+			]
+		},
+		".properties.plan1_selector.active.master_vm_type": {
+			"type": "vm_type_dropdown",
+			"configurable": true,
+			"credential": false,
+			"value": "micro",
+			"optional": false
+		},
+		".properties.plan1_selector.active.master_persistent_disk_type": {
+			"type": "disk_type_dropdown",
+			"configurable": true,
+			"credential": false,
+			"value": "10240",
+			"optional": false
+		},
+		".properties.plan1_selector.active.worker_vm_type": {
+			"type": "vm_type_dropdown",
+			"configurable": true,
+			"credential": false,
+			"value": "micro",
+			"optional": false
+		},
+		".properties.plan1_selector.active.persistent_disk_type": {
+			"type": "disk_type_dropdown",
+			"configurable": true,
+			"credential": false,
+			"value": "10240",
+			"optional": false
+		},
+		".properties.plan1_selector.active.worker_instances": {
+			"type": "integer",
+			"configurable": true,
+			"credential": false,
+			"value": 1,
+			"optional": false
+		},
+		".properties.plan1_selector.active.errand_vm_type": {
+			"type": "vm_type_dropdown",
+			"configurable": true,
+			"credential": false,
+			"value": "micro",
+			"optional": false
+		},
+		".properties.plan1_selector.active.addons_spec": {
+			"type": "text",
+			"configurable": true,
+			"credential": false,
+			"value": null,
+			"optional": true
+		},
+		".properties.plan1_selector.active.allow_privileged_containers": {
+			"type": "boolean",
+			"configurable": true,
+			"credential": false,
+			"value": false,
+			"optional": true
+		},
+		".properties.plan2_selector": {
+			"type": "selector",
+			"configurable": true,
+			"credential": false,
+			"value": "Plan Inactive",
+			"optional": false
+		},
+		".properties.plan3_selector": {
+			"type": "selector",
+			"configurable": true,
+			"credential": false,
+			"value": "Plan Inactive",
+			"optional": false
+		}
+	}
+}
