@@ -88,7 +88,7 @@ spec.director.properties.json
 
 #### 10: Upload PKS controller tile
 ```shell
-./controller.upload.sh
+./controller.upload.sh <pivotal-container-service-1.0.2-build.46.pivotal>
 ```
 
 #### 11: Check available products
